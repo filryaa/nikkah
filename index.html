@@ -241,9 +241,9 @@
       const dragStop = () => {
         isDragStart = false;
       };
-      Carousel.addEventListener("mousedown", dragStart);
-      Carousel.addEventListener("mousemove", dragging);
-      Carousel.addEventListener("mouseup", dragStop);
+      Carousel.addEventListener("swipedown", dragStart);
+      Carousel.addEventListener("swipemove", dragging);
+      Carousel.addEventListener("swipeup", dragStop);
     </script>
     <!-- countdown -->
     <script>
