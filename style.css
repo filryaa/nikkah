@@ -316,7 +316,7 @@ a {
 .Wrapper .Carousel {
   font-size: 0px;
   cursor: pointer;
-  overflow: hidden;
+  overflow: scroll;
   white-space: nowrap;
 }
 
